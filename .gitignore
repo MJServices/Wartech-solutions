@@ -1,0 +1,166 @@
+# Generic
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment files
+.env
+.env.*.local
+.env.local
+.env.test
+*.env
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log
+dist/
+build/
+.cache/
+.next/
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+env/
+venv/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.coverage
+coverage.xml
+*.egg-info/
+dist/
+build/
+
+# Java / Gradle / Maven
+target/
+build/
+.gradle/
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDEs and editors
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+*.sublime-project
+*.sublime-workspace
+
+# Visual Studio / .NET
+.vs/
+*.user
+*.userosscache
+*.suo
+*.cache
+*.pdb
+*.ilk
+*.log
+bin/
+obj/
+TestResults/
+*.ncb
+*.sdf
+*.dbmdl
+*.bak
+
+# JetBrains Rider / IntelliJ
+.idea/
+*.iml
+!.idea/inspectionProfiles
+*.iws
+out/
+
+# Ruby / Rails
+*.gem
+*.rbc
+.bundle/
+vendor/bundle/
+log/
+tmp/
+coverage/
+.byebug_history
+
+# PHP / Composer
+vendor/
+composer.phar
+composer.lock
+
+# Go
+bin/
+pkg/
+vendor/
+*.exe
+*.test
+*.out
+
+# Rust
+/target/
+**/*.rs.bk
+
+# C/C++
+*.o
+*.obj
+*.so
+*.a
+*.exe
+*.dll
+*.lib
+
+# Android / iOS
+.gradle/
+local.properties
+*.keystore
+build/
+captures/
+.externalNativeBuild/
+*.xcworkspace
+DerivedData/
+Pods/
+Podfile.lock
+
+# Docker
+docker-compose.override.yml
+docker-compose.*.yml
+.env.*
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Certificates and keys
+*.pem
+*.key
+*.pfx
+*.crt
+
+# Misc
+coverage/
+reports/
+*.seed
+.idea/
+.vagrant/
+*.log.*
